@@ -6,7 +6,7 @@ from random import randrange
 
 class Game:
 
-    def __init__(self, number_of_players=2, board_dimension=20):
+    def __init__(self, number_of_players=2, board_dimension=10):
 
         self.number_of_players = number_of_players
         self.board_dimension = board_dimension
